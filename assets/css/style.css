@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+     --a-font: "Padauk",serif;
+     --fw-l: 300
+     --fw-b: 500
+     --fw-base: 1rem;
+     --one: rgb(192, 162, 218);
+     --two: rgb(120, 107, 179);
+     --p-color: black;
+     --bg: rgb(202, 123, 59);
+}
+
+body {
+    
+    font-family: var(--a-font);
+    background-image: url(/assets/images/cloud.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    border-radius: 5%;
+    width: 350px;
+    height: 430px;
+    margin: 20px 850px;
+}
+header.p {
+    text-align: center;
+    background-color: var(--one);
+}
+
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+.me h2 {
+    background-color: var(--one);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+figcaption {
+    text-align: center;
+    font-size: x-large;
+    margin: 30px;
+}
+
+ p {
+    font-size: larger;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#Email {
+     text-align: center;
+     background-color:bisque;
+}
+
+#Github {
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+#Facebook {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#Instagram {
+    text-align: center;
+    background-color:bisque;
+}
+
+footer {
+    text-align:center;
+    margin: 20px;
+}
+
+h2 p {
+    text-align: center;
+    font-size: larger;
+    border: solid;
+}
+ h2.c {
+    background-color: var(--one);
+    padding: 10px;
+ }
+
+section h2 {
+    text-align: center;
+}
